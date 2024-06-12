@@ -1,0 +1,19 @@
+.title{
+    color: blue;
+}
+.player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.players{
+    display: flex;
+    align-items: center;
+}
+.players img{
+    width: 56px;
+    height: 56px;
+}
+
+.players a{
+    text-decoration: none;
+}
