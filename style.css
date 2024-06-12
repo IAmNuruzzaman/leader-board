@@ -31,4 +31,67 @@
 
 .blog{
     display: flex;
+    /* align-items: center; */
+    gap: 10px;
+    margin-bottom: 20px;
 }
+
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+
+.blog-info h1{
+    font-size: 20px;
+}
+.blog-author{
+    color: rgb(140, 140, 224);
+    text-decoration: none;
+}
+.blog-author span{
+    color: blue;
+    text-decoration: none;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+
+/* latest courses */
+.latest-course{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+}
+
+.courses img{
+    width: 224px;
+    height: 104px;
+}
+
+.rating{
+    color: yellow;
+}
+
+.rating-1{
+    color: rgb(235, 219, 219);
+}
+
+.course-info{
+    display: flex;
+    align-items: center;
+}
+
+
+.course-time{
+    margin-left: 15px;
+    background-color: #FFE4E8;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+
