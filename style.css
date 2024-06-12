@@ -1,3 +1,7 @@
+
+/* top player style  */
+
+
 .title{
     color: blue;
 }
@@ -8,6 +12,8 @@
 .players{
     display: flex;
     align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 .players img{
     width: 56px;
@@ -16,4 +22,13 @@
 
 .players a{
     text-decoration: none;
+}
+
+
+
+
+/* top bloger style  */
+
+.blog{
+    display: flex;
 }
